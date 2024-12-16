@@ -15,7 +15,8 @@ sites:
     url: play.iceeburr.dev
     icon: https://raw.githubusercontent.com/iceeburr/uptime-monitor/refs/heads/master/assets/minecraft_favicon.png
   - name: VPN Service
-    url: https://veil.iceeburr.dev/dashboard
+    method: GET
+    url: https://veil.iceeburr.dev/
     icon: https://raw.githubusercontent.com/iceeburr/uptime-monitor/refs/heads/master/assets/vpn_favicon.png
 
 status-website:
