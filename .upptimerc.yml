@@ -6,12 +6,13 @@ skipDeleteIssues: true
 
 sites:
   - name: iceeburr のラジオ
-    url: https://iceeburr.dev
+    method: GET
+    url: https://iceeburr.dev/api/status
     icon: https://raw.githubusercontent.com/iceeburr/uptime-monitor/refs/heads/master/assets/favicon.png
   - name: Minecraft Server
-    url: play.iceeburr.dev
-    port: 25565
     check: "tcp-ping"
+    port: 25565
+    url: play.iceeburr.dev
     icon: https://raw.githubusercontent.com/iceeburr/uptime-monitor/refs/heads/master/assets/minecraft_favicon.png
   - name: VPN Service
     url: https://veil.iceeburr.dev/dashboard
